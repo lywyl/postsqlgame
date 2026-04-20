@@ -4,7 +4,7 @@ import UnoCSS from 'unocss/vite'
 import { presetUno, presetIcons, presetAttributify } from 'unocss'
 
 export default defineConfig({
-  base: '/game/',
+  base: '/postsqlgame/',
   plugins: [
     vue(),
     UnoCSS({

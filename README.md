@@ -37,7 +37,7 @@
 
 ## 直接玩
 
-👉 **[lywyl.github.io/game](https://lywyl.github.io/game/)**
+👉 **[lywyl.github.io/postsqlgame](https://lywyl.github.io/postsqlgame/)**
 
 打开就能玩，不用装任何东西。
 
@@ -46,8 +46,8 @@
 想改代码或者二次开发：
 
 ```bash
-git clone https://github.com/lywyl/game.git
-cd game
+git clone https://github.com/lywyl/postsqlgame.git
+cd postsqlgame
 npm install
 npm run dev
 ```
