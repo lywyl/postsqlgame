@@ -3,8 +3,8 @@ import vue from '@vitejs/plugin-vue'
 import UnoCSS from 'unocss/vite'
 import { presetUno, presetIcons, presetAttributify } from 'unocss'
 
-export default defineConfig({
-  base: '/postsqlgame/',
+export default defineConfig(({ command }) => ({
+  base: command === 'build' ? '/postsqlgame/' : '/',
   plugins: [
     vue(),
     UnoCSS({
@@ -15,4 +15,4 @@ export default defineConfig({
       ],
     }),
   ],
-})
+}))
